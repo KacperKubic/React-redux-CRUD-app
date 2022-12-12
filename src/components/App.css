@@ -1,0 +1,85 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+  }
+
+  .employeeForm{
+    height: 20%;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .employeeForm form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .employeeForm form h2{ 
+    font-size: 2rem;
+  }
+
+  .employeeForm form input{ 
+    padding: 3px;
+  }
+
+
+  .employeeForm form label{
+    font-size: 1.2rem;
+    margin: 2px;
+  }
+
+  .employeeForm form button{
+    margin: 3px;
+    background-color: azure;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    cursor: pointer;
+  }
+  
+
+  .singleEmployee{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1.5px solid rgb(136, 133, 133);
+    padding: 5px;
+  }
+
+  .singleEmployee .employeeInformation{
+    text-align: center;
+  }
+
+  .singleEmployee .changeEmployeeInformation{
+    margin: 2px;
+  }
+
+  .singleEmployee .changeEmployeeInformation input{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px;
+  }
+
+  .singleEmployee .changeEmployeeInformation button{
+    background-color: rgb(219, 217, 217);
+    border: 1px solid rgb(136, 133, 133);
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .singleEmployee button{
+    border-radius: 10px;
+    background-color: rgb(219, 217, 217);
+    border: 1px solid rgb(136, 133, 133);
+    padding: 5px;
+    margin: 3px;
+    cursor: pointer;
+  }
